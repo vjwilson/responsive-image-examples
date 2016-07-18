@@ -1,0 +1,15 @@
+{
+  "name": "responsive-image-examples",
+  "version": "1.0.0",
+  "description": "Examples of different responsive image techniques",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Van J. Wilson",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "yargs": "^4.8.0"
+  }
+}
