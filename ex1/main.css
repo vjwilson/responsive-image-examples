@@ -58,21 +58,34 @@ a:active {
 }
 
 .topmatter {
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .topmatter {
+    padding-bottom: 1rem;
+  }
 }
 
 .sitename {
   font-size: 2em;
   font-weight: bold;
-  height: 3rem;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .sitename {
     float: left;
+    font-size: 1.8em;
+    height: 3rem;
     text-align: left;
     width: 41.558441558442%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .sitename {
+    font-size: 2em;
   }
 }
 
@@ -84,7 +97,7 @@ a:active {
   .nav {
     float: right;
     height: 3rem;
-    width: 58.441558441558%%;
+    width: 58.441558441558%;
   }
 }
 
@@ -149,8 +162,14 @@ a:active {
 
 @media screen and (min-width: 768px) {
   .bigbox__title {
-    font-size: 4em;
+    font-size: 3em;
     max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .bigbox__title {
+    font-size: 4em;
   }
 }
 
@@ -159,8 +178,8 @@ a:active {
 }
 
 .smallbox {
-  background-color: #f1f1f1;
   float: left;
+  margin-bottom: .5rem;
   min-height: 12rem;
   padding: 1rem;
 }
@@ -168,6 +187,7 @@ a:active {
 @media screen and (min-width: 768px) {
   .smallbox {
     float: left;
+    margin-bottom: 0;
     margin-right: 3.030303030303%;
     width: 48.484848484848%;
   }
