@@ -157,14 +157,22 @@ img {
 .bigbox__title {
   bottom: 0.5em;
   color: #fff;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   line-height: 1;
   left: 1em;
   margin: 0;
   position: absolute;
+  right: 1em;
   text-align: center;
   text-shadow: 4px 3px 2px #000;
+}
+
+@media screen and (min-width: 400px) {
+  .bigbox__title {
+    font-size: 2em;
+    line-height: 1.1;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -215,7 +223,7 @@ img {
   overflow:hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 400px) {
   .media__image {
     float: left;
     margin: 0 1em 0 0;
