@@ -146,7 +146,7 @@ img {
   /* shorthand for all the background properties:
      background: url("images/cast-photo.jpg") center/cover no-repeat;
   */
-  background-image: url("images/cast-photo.jpg");
+  background-image: url("../images/cast-photo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
